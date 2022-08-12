@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-print("hiiiiiiiiiiiiii")
+print("hi")
 
 x=pd.read_csv("F:/Software bioinfo/GIT dir/Python-Biopython/DA/Genome Glossary.csv")
 #print (x)
