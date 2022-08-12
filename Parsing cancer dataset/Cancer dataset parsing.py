@@ -1,8 +1,6 @@
-
-#Assignment IOB
 #Files downloaded from nextprot database
 
-# Q1
+
 #counting number of protein
 count = 0
 #creating an empty dictionary to store the values
@@ -29,7 +27,7 @@ print("\n Protein accession no:", "Length of protein")
 for key in dict:
     print(key, ":", len(dict[key]))
 
-#Q2
+
 #reading the file
 file1= open(r'C:\Users\SHASANK SHEKHAR PADH\Desktop\IoB\nextprot_all.peff', 'r')
 
@@ -47,9 +45,6 @@ for key in dictpe:
   filenew.write(key + "\n" + dict[key] + "\n\n")
 filenew.close()
 
-
-
-#Q3
 
 lst = []
 dictf = {}
